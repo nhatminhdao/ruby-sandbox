@@ -37,7 +37,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activesupport
+  activesupport (> 1.0.3)
   awesome_print
   pry-byebug
 

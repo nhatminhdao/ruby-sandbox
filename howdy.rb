@@ -5,11 +5,9 @@
 # require "./goodbye.rb"
 require "active_support/all"
 a = "table".pluralize
+
 pp a
-# pp 1.ordinalize
 
-# pp "What's your name?"
+pp 4.ordinalize
 
-# their_name = gets.chomp
-
-# puts "Hello, pretty #{their_name}!"
+pp 1.ordinalize

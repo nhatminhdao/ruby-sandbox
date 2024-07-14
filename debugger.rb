@@ -1,11 +1,10 @@
-
-
 require "pry-byebug"
 
-f = "Your lucky number is "
+first_part = "Your lucky number is "
 
-l = rand(100)
+last_part = rand(1..20)
 
 byebug
 
-pp f + l
+pp first_part + last_part +"!"
+
